@@ -1,0 +1,25 @@
+Create EC2
+Login to SSH
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install nginx
+curl -Sl https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install nodejs
+node -v
+git clone ""
+dir
+cd repo
+ls -A
+npm install
+(EC2 -defualt -security)
+edit inbound rules
+add rules
+4000 in custom tcp
+node index.js
+
+--Ctrl+c---
+
+--git pull username and token as password--
+node index.js
+
+
+

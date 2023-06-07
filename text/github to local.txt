@@ -1,0 +1,5 @@
+git init
+git clone https://github.com/sudip7407/Repo1
+ls -A
+rm -r .git
+cd repo/

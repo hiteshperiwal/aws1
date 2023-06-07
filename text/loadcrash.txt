@@ -1,0 +1,15 @@
+nano inf.sh
+#!/bin/bash
+while true
+do
+	echo "Loop running"
+done
+
+ctrl+X
+Y
+
+
+--give execute permission to ffile--
+chmod +x inf.sh
+
+./inf.sh
