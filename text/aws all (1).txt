@@ -1,0 +1,845 @@
+                     CREATING AN AWS ACCOUNT
+
+
+1. Visit aws.amazon.com and click on         2. Enter the root user email
+…. “Create an AWS Account”                       address ,AWS account name and
+.                                                click on “Verify email address”
+
+
+
+
+    3.   Enter the verification code         4. Set your account’s password
+         received in the given email         ….
+         address and click on “Verify”       .
+
+
+
+
+                                         1
+5. Fill in your contact details and click       6. Enter your billing information and
+…. on continue                                  …. click on “Verify and Continue”
+.                                               .
+
+
+
+
+7. Confirm and verify your phone                    8. Choose Basic Support plan and hence
+… number                                            …. your AWS account is created
+..                                                  .
+
+
+
+
+                                            2
+CONFIGURE A BUDGET AND SETTING A THRESHOLD
+                  VALUE
+
+ 1. Visit aws.amazon.com and Sign in             2. Click on “Hitesh Periwal”
+ ….
+ .
+
+
+
+
+     3.   Click on “Billing Dashboard”           4. Click on “Budgets”
+                                                 ….
+                                                 .
+                                             s
+
+
+
+
+                                         1
+5. Click on “Create Budget”       6.      Select “Customize (advanced)
+….                                ….
+.                                 .
+
+
+
+
+7. Click on “Next”                    8. Give your budget a name
+…                                     ….
+..                                    .
+
+
+
+
+                              2
+9. Enter the budgeted amount in $               10. Click on “Next”
+….                                              …..
+.
+
+
+
+
+    11. Click on “Add an alert threshold”       12.   Set the threshold and then specify
+    …..                                         …..   the email recipients you want to
+                                                      notify when threshold has exceeded
+
+
+
+
+                                            3
+13. Click on “Create Budget”            14. Select “Customize (advanced)
+…..                                     …..
+
+
+
+
+15. Click on “Create budget ” and
+    hence the budget is created
+
+
+
+
+                                    4
+                 ACTIVATION OF MFA SECURITY
+
+
+1. Visit aws.amazon.com and Sign in                2. Click on “Hitesh Periwal”
+….
+.
+
+
+
+
+    3.   Click on “Security credentials”           4. Click on “Assign MFA device”
+                                                   ….
+                                                   .
+                                               s
+
+
+
+
+                                           1
+5. Enter the Device name       6.      Click on the "Authenticator app”
+….                             ….      option
+.                              .
+
+
+
+
+7. Click on “Next”                 8. Download Authenticator from
+…                                  …. Google Play Store on your Smart
+                                   .   Phone.Then click on PLUS button.
+..
+                                       Then click on "Scan a QR Code".Then
+                                       come back to Desktop Screen.Click
+                                       "Show QR code”
+
+
+
+
+                           2
+9. Get two consecutive MFA code from       10. Click on “Add MFA” and thus MFA
+…. smartphone and enter in the             ….. has been added
+.   respective fields
+
+
+
+
+                                       3
+CREATE AN IAM USER GIVING FULL S3 ACCESS
+
+ 1. Visit aws.amazon.com and Sign in       2. Click on the search field and type
+ ….                                             “IAM” in the search field
+ .
+
+
+
+
+     3.   Click on “IAM”                   4. Click on “Users”
+                                           ….
+                                           .
+                                       s
+5. Click on “Add users”                6.      Enter the user name and click on
+….                                     ….      the checkbox to provide user access
+.                                      .       to AWS Management Console
+
+
+
+
+7. Select “I want to create an IAM         8. Set the password and click the
+… user” as well as “custom password”       …. checkbox “Users must create a
+                                           .   new password at next sign-in”
+..
+9. Click on “Next”                            10. Click on “Create group”
+….                                            …..
+.
+
+
+
+
+    11. Click the “find policies” field and   12.   Click the checkbox
+    ….. type “S3”                             …..   “AmazonS3FullAccess”
+13. Enter a user group name   14. Click on “Create user group”
+…..                           …..
+
+
+
+
+15. Click on the checkbox       16. Click on “Next”
+    “S3FullAccess”
+17. Click on “Create user”     18. Click on “Download .csv file”
+…..                            …..
+
+
+
+
+17. IAM user is thus created
+…..
+CREATE A PRIVATE BUCKET IN AWS.UPLOAD A
+FILE AND CHECK BY PRESIGNED URL THAT YOU
+       CAN ACCESS THE FILE OR NOT.
+
+ 1. Visit aws.amazon.com and Sign                          2. Click on “Buckets”
+ …. in.Click on the search field and type
+ .        “s3” in the search field and select S3
+
+
+
+
+     3.    Click on “Create Bucket”                        4. Click the "Bucket name" field and type
+                                                           …. "hiteshpvtbucket" and keep all other
+                                                           .   options unchanged.
+                                                       s
+
+
+
+
+                                                   1
+5. Click on “Create bucket”           6. Click on “hiteshpvtbucket”
+….
+.
+
+
+
+
+    7.   Click on “Upload”            8. Add files and folders which you want
+                                      …. to upload and click upload
+                                      .
+                                  s
+
+
+
+
+                              2
+9. Select the file for which you want             10. Click on “Share with a presigned URL”
+…. to generate presigned url and click
+.   “Action”
+
+
+
+
+11. Set the time interval until which            12. Click on “Copy presigned URL” and you
+      the presigned URL expires and                   will be able to access the file using the
+      click on “Create presigned URL”                 URL for the set time period only.
+                                             s
+
+
+
+
+                                         3
+CREATE A PUBLIC BUCKET IN AWS.UPLOAD A FILE
+ AND GIVE THE NECESSARY PERMISSION TO CHECK
+   WHETHER THE FILE URL IS WORKING OR NOT.
+
+ 1. Visit aws.amazon.com and Sign                          2. Click on “Buckets”
+ …. in.Click on the search field and type
+ .        “s3” in the search field and select S3
+
+
+
+
+     3.    Click on “Create Bucket”                        4. Click the "Bucket name" field and type
+                                                           …. "hiteshpublicbucket".
+                                                           .
+                                                       s
+
+
+
+
+                                                   1
+5. Select ACLs enabled and uncheck       6. Click on this check box
+…. “Block all public access”
+.
+
+
+
+
+7. Click on “Create bucket”              8. Click on “hiteshpublicbucket”
+….
+.
+
+
+
+
+                                     2
+     9.    Click on “Upload”                                 10. Add files and folders which you want
+                                                                  to upload and click upload
+                                                         S
+
+
+
+
+11. You may click the filename and then go               12. Select the file click “Action”. Click on
+          to permission and select edit and allow                “Make public using ACL” and then click
+          everyone to access the file.                           on make public.
+          Acknowlegde and then save changes.
+
+
+
+                                                    or
+
+
+
+
+13.
+ 1        Now the file is accessible through both the object URL and the presigned URL.
+
+.1
+ 1
+ .                                                  3
+                  UPLOAD A STATIC WEBSITE ON S3
+
+
+1. Keep the html files ready.Visit                       2. Click on “Buckets”
+…. aws.amazon.com and Sign in.Click on
+.        the search field and type “S3” in the
+         search field and select “S3”
+
+
+
+
+    3.    Create a public bucket and click on            4. Click on upload button
+          it                                             ….
+                                                     s
+                                                         .
+
+
+
+
+                                                 1
+5. Select the html files you want to           6. Click on “Permissions”
+…. upload by clicking on “Add files”
+.
+
+
+
+
+7. Select the option “Choose from              8. Go to public bucket in which the
+…. predefined ACLs”,”Grant public-read             website was uploaded.Select the
+.   access”,check the checkbox “I                  properties tab
+    understand the risk of …..” and then
+    upload the file
+
+
+
+
+                                           2
+ 9.    Go to static website section and              10.   Choose the option “Enable” for static
+       click on “Edit”                                     website hosting,then choose “Host a
+                                                           static website” and specify the index
+                                                 S         document of the website.Finally click on
+                                                           save changes
+
+
+
+
+11. After saving changes go down and find        12. The website is accessible
+      the bucket website endpoint link.See
+      whether the website is accessible or
+      not across different devices
+
+
+
+
+                                             3
+UPLOAD A STATIC WEBSITE ON EC2 SERVER
+
+
+1. Visit aws.amazon.com and Sign in.Click       2. Select “Launch instance” option
+…. on the search field and type “EC2” in
+.        the search field and select EC2
+
+
+
+
+    3.    Select Ubuntu                         4. Select instance type as “t2.micro” and
+                                                …. and then “Click on create new key
+                                                .   pair”
+                                            s
+5. Type the key pair name,Select “RSA” as    6. Allow all the following three traffics
+   key type and “.pem” as key file                and click on “Launch instance”
+….
+    format.Then click on “Create key pair”
+.
+    and download the .pem file
+
+
+
+
+                                                  Open Bitwise SSH client,paste the
+7. On the instances page click on the        8.
+   instance id and then copy the public           copied public IPv4 address in the host
+…. IPv4 address                                   box.Select username as Ubuntu,initial
+.                                                 method as none and elevation as
+                                                  default.Then click on client key manager
+ 9.   Import the download .pem file                    10. Select accept and continue and then
+      and then click on login on the SSH                    type the username as Ubuntu,method
+      client.                                               as public key and client key as Global
+                                                   S
+                                                            1.Then click on “OK”.
+
+
+
+
+11.   Open the terminal console in the SSH client and type and run the following commands
+      individually.If asked for confirmation click on yes and ok depending on the options available.
+12. Type the following commands in the     13. Open new SFTP window and move to
+     terminal to change the working            the var/www/html directory in the
+     directory to the root and then move       server machine.Now drag and drop the
+     to var/www/ to give the permission        required html files from the local
+     add files to that folder.                 machine to the server machine.
+
+
+
+
+14. Open the site using the public IPv4
+     address and it will be accessible
+                             Assignment No. 8
+DEPLOY A PROJECT FROM LOCAL MACHINE TO
+         GITHUB AND VICE-VERSA
+
+1. Visit github.com,login in it and the click          2. Give a Repository name and set it as
+…. on “New repository”.                                     private.Then click on “Create
+.                                                           repository”.
+
+
+
+
+    3.   Go to Settings,on the bottom of the left panel click on “developer settings”.Then go to
+         “Personal access tokens” ,choose “Tokens(classic)”.Now on the right side select “Generate
+         new token” and then “Generate new token(classic).
+4. Now give this token a name,select                   5. Copy and save the generated token
+…. expiration duration as 90 days.Click on                  for future use.
+    all the checkbox listed under scopes to
+.
+    get the full control.Then click on
+    “Generate token”.
+
+
+
+
+6. Go to settings option inside “assign” repository.Click on “Collaborators” and “add people”
+   with whom you want to collab this project.Invitation can be sent to the respective person
+…. using the github username or email id with which his/her github account is associated.The
+.   invitation can be accepted using the link that the person will receive on the registered
+    email or by navigating to the notification section of his/her github account.Upon
+    acceptance of the invitation , the private repository will be accessible to that collaborator.
+7.   Copy the https link of the                     8. Right click on the folder whose file you
+     repository which will be required in               wish to deploy on github and click on
+     the upcoming steps.                                “Git Bash here”.
+                                                S
+
+
+
+
+9. Type the following commands in the git bash to deploy a project from local machine to Github
+10. In the window which poped up,select                   11. The project is thus deployed from
+     sign in using token,paste the token                       local machine to github”.
+     saved previously and click “Sign in”.
+
+
+
+
+12. To deploy a project from Github to local machine :-
+     a. Copy the link of the repository which you want to deploy.
+     b. Create a new folder named “N1” and open gitbash there.
+     c. Type the following commands in the git bash (use the link of the repository in the command).
+     d. Thus,the task is complete
+                               Assignment No. 9
+     DEPLOY A PROJECT FROM GITHUB TO EC2
+
+1. Visit aws.amazon.com and Sign                  2. Login to Bitwise SSH client using the
+…. in.Create an EC2 server and copy its                copied IPv4 address as host address.
+.        IPv4 address.
+
+
+
+
+    3.    Create a personal access token in       4. Create a repository containing the
+          the Github and save it for future       …. project files in the Github and copy
+          reference                               .   and save its HTTPS address for future
+                                              s
+                                                      reference
+5. Open a “New terminal console” in the Bitwise SSH client and type the following
+…. commands in it to install nodejs:-
+         pwd (to check if it is in server)
+.
+         sudo apt-get update
+         sudo apt-get upgrade
+         sudo apt install nginx
+         nginx –v (to check nginx version)
+         curl –s1 https://deb.nodesource.com/setup_18.x |sudo -E bash -
+         sudo apt install nodejs
+         node –v (to check nodejs version)
+
+         node –v
+
+
+
+
+    6.    To upload the project on EC2 server type the following commands:-
+          git clone https address of the github hub repository where project is uploaded
+          (For username type your github username and for password enter the personal access token)
+          dir (to check the directory of the project)
+          cd hello1/ (to enter into repository)
+          npm install (node package manager installation to run node commands)
+          node index.js (as project is uploaded start server)
+7.   On pasting the public Pv4 address address of EC2 server ,the project wont load because only
+     through specific ports it is accessible.Go to git hub and check for the ports permitted for the
+     project by opening the index.js file.
+     Now to address this issue go to instance(in aws) -> security -> security groups -> edit
+     inbound rules -> Add rules -> set type as custom tcp , port range as specified in index.js file,
+     source as anywhere-IPv4 and 0.0.0.0/0 ->save rules.Now type the port number after colon in
+     IPv4 address and the website will be accessible.
+     Hence the project is successfully deployed from github to EC2.
+
+
+
+
+8.   If there is some editing done in the project it will not be reflected in the website.For
+     that we need to terminate the server using ctrl+c and then type the follow command:-
+             git pull
+             (enter the github username and its token as password)
+             node index.js
+     Now,refresh the browser to see the changes reflected on it.
+                              Assignment No. 9
+  DEPLOY A PROJECT FROM GITHUB TO EC2 BY
+CREATING NEW SECURITY GROUP AND USER DATA
+
+1. Visit aws.amazon.com and Sign in.Go           2. Select all security groups except the
+…. to EC2 Service and click on “Security              default and go to Actions dropdown
+.        Groups”                                      menu and choose “Delete security
+                                                      groups”
+
+
+
+
+    3.    Click on “Create security              4. Add the Inbound rules with details as
+          group”.Enter the “Security group       …. shown in the figure.After entering the
+          name” and “Description”                .   details click on “Create security group”
+                                             s
+5.   Go to EC2 dashboard and Click on                  6.   Enter the instance name and select
+     “Launch Instance”                                      Ubuntu as Amazon Machine Image
+
+
+
+
+7.   Select key pair
+
+
+
+
+8.   Under network settings ,click on “Select existing security group” and in the security
+     group dropdown select the security group which you just created
+ 9.    Type the following user data under              10. Now using the public ip address of the
+       advanced details section.Then click                  instance and the corresponding port
+       on create instance.                                  number of the project ,we can access
+                                                   s
+                                                            the project.
+
+
+
+
+11. However for certain machines the                   12. Now type the following commands in the
+      project will not be accessible                   ….. terminal.Keep the repository url and the
+      directly.To access the project,go to                  github personal access token ready as
+      instance and click on connect and again               they will be required in these commands
+      click on connect
+
+
+
+
+       Now using the public ip address of the instance and the corresponding port number of the
+13.
+       project ,we can access the project.Hence the project is successfully deployed from github to
+       EC2 using new security group and user data
+                             Assignment no. 11
+Build scaling plans in AWS that balances
+     load on different EC2 instances
+
+ 1. Visit aws.amazon.com and Sign in.Go              2. Click on “Create launch instance”
+ …. to EC2 dashboard and click “Launch                   option
+ .        Template”
+
+
+
+
+     3.    Give template name,template version       4. Select Ubuntu as AMI
+           description and select autoscaling        ….
+           guidance                              s
+                                                     .
+5. Select “t2.micro” as instance type and   6. Now select the existing security group
+   key pair for login                           which you created for the project
+….
+.
+
+
+
+
+7. Type the following user data and click   8. In the EC2 dashboard click on “Auto
+   on create launch template                   scaling groups and then click on create
+….
+                                               Auto Scaling groups”
+.
+ 9.    Enter the Auto Scaling group                 10. Select all the Availability zones and
+       name.Select the template created by                 subnets and click on “Next”
+       you and its version as latest.Click on
+       “Next”
+
+
+
+
+                                                S
+
+
+
+
+11. In the load balancing ,select “Attach            12.     In the listeners section, enter the
+      to a new load balancer”.In the load                    port as mentioned in your project
+      balancer type select “Application                      and health check grace period as
+      load balancer”.Give the load                           300 seconds.
+      balancer name and select the load
+      balancer scheme as internet facing
+13. Enter the desired capacity as                  14. Now two instances are
+      2,minimum capacity as 2 and maximum              running.Overload one of them to see
+      capacity as 3.Select target tracking             whether auto scaling functionality is
+                                               S
+      scaling policy,give it a name,target             working or not.
+      value 50 and 300 seconds as warm up
+      .Click on “Next”,”Next”,”Next” and
+      then “Create auto scaling group”.
+
+
+
+
+15.    Login in Bitwise SSH client using one        16. Open the terminal console,create a
+       of the public ip address of the                   shell executables file,type the
+       instances created and the key pair                following commands and execute
+       used in those instance.                           the file to overload the server
+    17. Select the running instances and click on monitoring.You will observe creation of new
+         instance during the 300 seconds warm up when the server is overloaded.Hence load is
+         balanced on different EC2 instances
+S
+                              Assignment No. 12
+Deploy and run project in aws without using
+                    port
+
+ 1. Visit aws.amazon.com and Sign in.Go           2. Select all security groups except the
+ …. to EC2 Service and click on “Security              default and go to Actions dropdown
+ .        Groups”                                      menu and choose “Delete security
+                                                       groups”
+
+
+
+
+     3.    Click on “Create security              4. Add the Inbound rules with details as
+           group”.Enter the “Security group       …. shown in the figure.After entering the
+           name” and “Description”                .   details click on “Create security group”
+                                              s
+5.   Go to EC2 dashboard and Click on                  6.   Enter the instance name and select
+     “Launch Instance”                                      Ubuntu as Amazon Machine Image
+
+
+
+
+7.   Select key pair
+
+
+
+
+8.   Under network settings ,click on “Select existing security group” and in the security
+     group dropdown select the security group which you just created
+  9.     Type the following user data under       10. Login to Bitwise SSH client using the
+         advanced details section.Then click           public ip address.
+         on create instance.
+
+
+
+
+11. Now login in Bitwise SSH client using the    12. After exiting the nano editor,type the
+       public ip address.Open the terminal and   ….. following command in the terminal to
+       type the following commands and then           restart the nginx web server.After
+       open nano editor.In the nano editor            restarting the nginx web server you will be
+       after commenting the previous location         able to access the website without the
+       type the new location as given below           port number.Hence we are running
+       and then save and exit.                        project in aws without using port number.
+                              Assignment No. 13
+Create a workmail for your organization
+
+1. Visit aws.amazon.com and Sign in.Click         2. Select “Free test domain” in the
+…. on the search field and type                        organization settings and click on
+.        “workmail” in the search field and            “Create organization”
+         select Amazon WorkMail. Click on
+         “Create organization”
+
+
+
+
+    3.    Click on the organization which was     4. Setup the user email and click on
+          just created.On the left panel select   …. “Create user”
+          users and then click on “Create user”   .
+6. Create two such users.Go back to          7. Login to the amazon workmail by any
+   organization dashboard and click on the   …. of the user of your organization’s
+   organization created by you. Now click    .     workmail
+   on the Amazon WorkMail web
+   application link.
+
+
+
+
+7. Send an email from one user account           .8. Check if the email is received by the
+    of the organization to the another.               other user of the same organization.
+                                                      Hence organization’s workmail is
+                                                      setup successfully.
+                            Assignment No. 14
+Create an elastic IP for an instance.
+
+
+1. Visit aws.amazon.com and Sign in.Go              2. Enter instance name and select
+…. to EC2 dashboard and click “Instance”                 Ubuntu as AMI
+.      and then click on “Launch instances”
+
+
+
+
+    3. Select t2.micro as instance type and a       4. Under firewall select create security
+       keypair                                      …. group and select all the three traffic
+                                                    .   options
+                                                s
+5. Now go to the instance created .Change              6. Go to EC2 dashboard and select “Elastic
+…. its state to stop.After its successfully                IPs”.Then click on “Allocate Elastic IP
+.
+       stopped ,again start it.It will be observed         address” and “Allocate”. Select the elastic
+       that its public IPv4 will change.                   ip address,go to “Actions” dropdown and
+                                                           select “Associate Elastic IP addresses”.
+
+
+
+
+7. Now select the instance and its private IP          8. Now go to the instance.Change its state to
+   address.Click on checkbox which reads                  stop.After its successfully stopped ,again
+…. “Allow this Elastic IP address to be
+                                                          start it.It will be observed that its public IPv4
+.      reassociated”.Then click on “Associate”            will remain same.Hence Elastic IP address is
+                                                          successfully associated with this instance.
+
+
+
+
+    9. To remove this Elastic IP address we need
+       to first disassociate it and then release it.
+                           Assignment No. 15
+     Create serverless computing service
+
+1. Visit aws.amazon.com and Sign in.Go to            2. Type funtion name,select Runtime as
+…. Search box,type lambda and click on                   “Node.js 18.x” and architecture as
+.     “Lambda”.Now click on “Create function”            “x86_64”.Click on “Create function”
+
+
+
+
+    3. Go to Code section.You may edit the           4. Select “Create new event”,give event
+       code and save it.Click on Test dropdown       …. name,event sharing as private,select
+       and select “Configure test event”             .   any template(optional) and click on
+                                                 s
+                                                         “Save”
+5. Now test the event by clicking on “Test”       6. Go to configuration ,select Function
+…. and deploy it by clicking on “Deploy”              URL and click on “Create function URL”
+.
+
+
+
+
+                                              \
+
+
+
+
+7. Select Authorization type as “NONE” and        8. Function URL is thus generated.You can
+   Click on“Save”                                    use it access and view your deployed
+….
+                                                     project.
+.
+                            Assignment No. 16
+Manage Amazon DNS service and run a project
+         using domain-name and URL
+
+  1.    Visit aws.amazon.com and Sign in.
+  2.    Go to EC2 Service
+  3.    Create an instance with custom security group and user data.( As done in Assignment 10)
+  4.    Click on the instance and copy the public IPv4 address and paste in the browser.
+  5.    Check accessibility of project by appending port number after the public IPv4 address.
+  6.
+  7.
+
+
+
+
+       6. Our EC2 instance works as intended.
+       However, to access the webpage one always
+       requires the public IPv4 address of the server
+       instance which is very complicated/less
+       accessible for end-users of our webpage/web
+       application. To make it easier for our end-users,
+       we need to bind a domain name to the server
+       instance so that anyone can use the domain
+       name and the URL to access the project.
+       Now Search “Route 53” in the search bar of
+       AWS console and click on “Route 53”
+     7. We require a registered Domain name for this assignment. So, after obtaining one (free or
+     paid) go to the Webpage of your Domain provider and log-in to your account where you can
+     find all the details of your purchased Domains.
+s
+     This may vary from site to site, so you will have to do this based on what site you are using.
+     We (for now) will be using GoDaddy.com, because we have purchased a Domain from them.
+
+     8. In the Route 53 dashboard “Click on “Create Hosted Zone button”.( Alternatively, you can go
+     to hosted zones from the left-side bar and then select create hosted zone option.)
+     9. Now, copy your Domain name from your Domain providers website. Here we used
+     GoDaddy.com. Paste the domain name in the given field in Hosted Zone configuration page.
+     10. Click on “Create Hosted Zone”.
+     11. Click on “Create a record button”.
+
+
+
+
+    12. Need not to give any name. Keep the record name blank and record type as it is.
+    13. Under the value, copy and paste your server instance public IPv4 address which you want to route
+        to using your DNS.Then click on create records button
+ 14. Click on the Create Record button again.But this time give the record name as “www”. Select
+     Record type as CNAME. In the text box under value, write the full domain-name there. (For
+     example: example.com). Click on “create records”.
+ 15. Now select the record with type nameserver (NS) .( The values seen on the right-hand side are
+     required for the next steps.)
+ 16. Now go to your Domain providers webpage. Go to your purchased Domains settings.
+ 17. Click on DNS section. (This may vary from provider to provider)
+ 18. Click on the nameservers option.
+ 19. Click on the Change nameservers and add here all the values opened in the Route 53 page.Select
+     use my own nameservers option.Add nameservers.Then click on “Save”.
+
+
+
+
+20. Search from any browser
+using your domain name with
+www.                                                                        www.hitesh.co.in:4000
+
+21. Append port no. to access the
+project.
+Thus,we have successfully run
+our project using our custom
+domain-name and URL.
+
